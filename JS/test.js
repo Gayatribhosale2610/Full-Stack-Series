@@ -5,14 +5,14 @@
 
 // -------------------- conversion --------------------------
 
-let score = true
-console.log(typeof score);
-console.log(typeof (score));
+//let score = true
+//console.log(typeof score);
+//console.log(typeof (score));
 
-//convert string to number
-let strToNum = Number(score)
-console.log(typeof strToNum);
-console.log(strToNum);
+////convert string to number
+//let strToNum = Number(score)
+//console.log(typeof strToNum);
+//console.log(strToNum);
 
 // to Number()
 // "33" => 33
@@ -20,9 +20,9 @@ console.log(strToNum);
 // Null => 0
 // true => 1
 
-let a = 0
-let b = Boolean(a)
-console.log(b)
+//let a = 0
+//let b = Boolean(a)
+//console.log(b)
 
 // to Boolean()
 // 1 => true
@@ -31,3 +31,10 @@ console.log(b)
 // "abc" => true
 
 // to String()
+
+// ------------------------ Operations -----------------------
+
+ console.log(2 == 2)
+ console.log("2" == 2) // does not check datatype
+ console.log(2 === 2)
+ console.log("2" === 2) // checks datatype
