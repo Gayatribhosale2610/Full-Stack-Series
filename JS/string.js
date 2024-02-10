@@ -1,6 +1,7 @@
 ﻿let str1 = "hello"
 let str2 = new String("Bye..! Thank you") 
 const str3 = "ABCDQWERTY643286#@$%$#^";
+const str4 = "Happy..!!"
 console.log(str3)
 
 // print string
@@ -32,8 +33,27 @@ console.log(str2.concat(" ", str3))
 console.log(str2.endsWith("you"))
 console.log(String.fromCharCode(65, 67, 68, 100)) // output: ACDd
 console.log(String.fromCodePoint(49))
-
-
+console.log(str2.includes("Bye")) // This method is case sensitive.
+console.log(str2.indexOf("yo")) // This method is case senstive
+console.log(str1.isWellFormed())
+console.log(str2.lastIndexOf("y", 11)) // This method is case senstive
+console.log(`Hi, I am ${str4.repeat(3)}`)
+console.log(str2.replace(/bye/i, "Thanks")) //i = ignore case
+console.log(str2.search("e"))
+console.log(str2.slice(3, 7))
+console.log(str2.split(" "))
+console.log(str2.startsWith("Bye"))
+console.log(str2.substring(0, 1))
+console.log(str3.toLocaleLowerCase())
+console.log(str2.toLocaleUpperCase())
+console.log(str3.toLowerCase())
+console.log(str2.toUpperCase())
+console.log(str2.toString())
+console.log(str2.strike())
+// LocaleCompare()
+// trim()
+// trimstart()
+// trimend()
 
 
 
