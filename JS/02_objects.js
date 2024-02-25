@@ -50,13 +50,23 @@ const users = [
     }
 ]
 
-console.log(users[1])
+//console.log(users[1])
 
-console.log(Object.keys(InstaUser)) // get all keys of an object
-console.log(Object.values(InstaUser)) // get all values of an object
-console.log(Object.entries(InstaUser)) // convert object into array of arr
+//console.log(Object.keys(InstaUser)) // get all keys of an object
+//console.log(Object.values(InstaUser)) // get all values of an object
+//console.log(Object.entries(InstaUser)) // convert object into array of arr
 
-console.log(InstaUser.hasOwnProperty("id1")) // check whether property is available in that object or not
+//console.log(InstaUser.hasOwnProperty("id1")) // check whether property is available in that object or not
+
+const course = {
+    coursename: "JS Tut",
+    price: 500,
+    coursePlatform: "Youtube"
+}
+
+const { coursePlatform: platform } = course // another way to access value of object
+//console.log(coursePlatform)
+console.log(platform)
 
 
 
